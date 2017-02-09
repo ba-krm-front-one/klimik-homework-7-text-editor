@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body,
+h4,
+h3,
+h2{
+    margin: 0;
+}
+body{
+    background-color: rgba(224, 224, 224, .8);
+}
+main{
+    width: 100%;
+    height: 900px;
+    background-color: #464f54;
+    position: relative;
+    margin: auto;
+}
+.first-container{
+    background-color:  #181818;
+    box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+    width: 876px;
+    height: 187px;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    vertical-align: 150%;
+    z-index: 2;
+}
+.search-title{
+    font-family: sans-serif;
+    color:  #767676;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 13px;
+    margin-left: 63px;
+    margin-top: 40px;
+}
+.search{
+    width: 816px;
+    height: 64px;
+    font-family: 'Playfair Display', serif;
+    color:  #fefefe;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 21px;
+    margin-left: 60px;
+}
+.second-container{
+    background-color:  #fbc02d;
+    box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+    width: 812px;
+    height: 76px;
+    position: absolute;
+    right: 0;
+    top: 234px;
+    z-index: 2;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.third-container{
+    background-color:  #ffffff;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+    width: 1060px;
+    height: 751px;
+    position: absolute;
+    z-index: 1;
+    margin: 149px 10% 0;
+}
+.content{
+    height: 100%;
+    width: 993px;
+    border-left: 2px solid #e8eced;
+    margin-left: 67px;
+    padding-top: 202px;
+    padding-left: 56px;
+    padding-right: 110px;
+}
+.upper-title{
+    font-family: sans-serif;
+    color: #b4b4b4;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 3px;
+    letter-spacing: 4px;
+}
+.main-title{
+    font-family: sans-serif;
+    color: #2a2a2a;
+    font-size: 77px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 27px;
+}
+.under-title{
+    font-family: 'Georgia', serif;
+    color: #8f8f8f;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 53px;
+}
+p{
+    font-family: 'Georgia', serif;
+    font-size: 27px;
+    line-height: 39px;
+}
